@@ -51,11 +51,28 @@
         <ul>
           <li><a href="index.html">Home<br></a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
+          <!--li><a href="services.html">Services</a></li-->
+          <li class="dropdown"><a href="services.html"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Digital Programs</a></li>
+              <!--li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li-->
+              <li><a href="#">Consulting</a></li>
+              <li><a href="#">Recruitment</a></li>
+              <li><a href="#">Internship</a></li>
+            </ul>
+          </li>
           <li><a href="portfolio.html" class="active">Portfolio</a></li>
           <li><a href="team.html">Team</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <!--li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
@@ -71,7 +88,7 @@
               <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
             </ul>
-          </li>
+          </li-->
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -85,18 +102,27 @@
     <!-- Page Title -->
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/portfolio-page-title-bg.jpg);">
       <div class="container">
-        <h1>Portfolio</h1>
+        <h1>Consulting</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio</li>
+            <li><a href="#">Services</li>
+            <li class="current">Consulting</li>
           </ol>
         </nav>
       </div>
     </div><!-- End Page Title -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>We are offering customised Digital Programs</h2>
+        <p>This digital environment allows persistent learning and is supported by a holistic ecosystem that provides other resources – job seeking guidance, tutorials, articles and other hugely relevant content and features. Pre-Interview packages can be offered, helping users to prepare for forthcoming job interviews hopefully helping them increase their chance of success in getting hired. A unique element of the TechSlate approach is that the learning is not only based around technical learning – users can access support to improve their understanding of specific roles within organisations, learn about team communication and overall workplace ecosystem and environments. Over time, the scope of the programs will increase – with new role-based programs, and package that evolve with the changing IT industry, so the latest advancements</p>
+      </div><!-- End Section Title -->
+      
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <!--section id="portfolio" class="portfolio section">
 
       <div class="container">
 
@@ -108,7 +134,7 @@
             <li data-filter=".filter-product">Product</li>
             <li data-filter=".filter-branding">Branding</li>
             <li data-filter=".filter-books">Books</li>
-          </ul><!-- End Portfolio Filters -->
+          </ul>
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -120,7 +146,7 @@
                 <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
@@ -130,7 +156,7 @@
                 <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
@@ -140,7 +166,7 @@
                 <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
@@ -150,7 +176,7 @@
                 <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
@@ -160,7 +186,7 @@
                 <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
@@ -170,7 +196,7 @@
                 <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
@@ -180,7 +206,7 @@
                 <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
@@ -190,7 +216,7 @@
                 <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
@@ -200,7 +226,7 @@
                 <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
@@ -210,7 +236,7 @@
                 <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
@@ -220,7 +246,7 @@
                 <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
               <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
@@ -230,15 +256,15 @@
                 <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                 <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
 
-          </div><!-- End Portfolio Container -->
+          </div>
 
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Section -->
+    </section--><!-- /Portfolio Section -->
 
   </main>
 
@@ -249,7 +275,7 @@
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">Nova</span>
+              <span class="sitename">TechSlate Limited</span>
             </a>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div class="social-links d-flex mt-4">
