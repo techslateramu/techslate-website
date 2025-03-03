@@ -768,6 +768,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                        AWSC - Sprint Review
+                      </button>
+                  </h2>
+                  <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#sprintAccordion">
+                      <div class="accordion-body">
+                          <ul>
+                              <li>3.6.1 - Open Discussion (Weekend)</li>
+                              <li>4.6.2 Weekend Refferences</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
             </div>
           </div>
           </div>
@@ -917,7 +932,7 @@
 <!-- Sprint 6 -->
 <div class="card my-3">
   <div class="card-header d-flex justify-content-between align-items-center">
-      <h5 class="mb-0">Sprint 6 - Azure DevOps Pipelines</h5>
+      <h5 class="mb-0">Sprint 6 - AWS Code Pipeline (CI/CD Pipeline)</h5>
       <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#sprint6" aria-expanded="false" aria-controls="sprint6">
          Sprint 6
       </button>
@@ -925,101 +940,101 @@
   <div id="sprint6" class="collapse">
       <div class="card-body">
         <div class="container mt-5">
-          <p><strong>⌛ 💻 Azure DevOps Sprint Planning</strong> </p>
+          <p><strong>⌛ 💻 AWS Code Pipeline Sprint Planning</strong> </p>
 
           <!-- Day 0 - Setup -->
           <div class="accordion" id="terraformSprint">
   
               <!-- Day 1 - Infrastructure as Code -->
               <div class="accordion-item">
-                <h2 class="accordion-header" id="headingDay1">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay1">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         Day 1 - Understand & Create Pipelines
                     </button>
                 </h2>
-                <div id="collapseDay1" class="accordion-collapse collapse show" data-bs-parent="#sprintAccordion">
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#pipelineAccordion">
                     <div class="accordion-body">
                         <ul>
-                            <li>1.1 - AzureDevOps Introduction</li>
-                            <li>1.2 - AzureDevOps Services</li>
-                            <li>1.3 - AzureDevOps Pipelines1</li>
-                            <li>1.4 - AzureDevOps Pipelines2</li>
-                            <li>1.5 - Demo - Azure DevOps Sample Pipeline 1</li>
-                            <li>1.6 - Demo - Azure DevOps Sample Pipeline 2</li>
-                            <li>1.7 - <strong>Exercise</strong></li>
-                            <li>1.8 - <strong>Quiz</strong></li>
+                            <li>1.1 - AWS CodePipeline Introduction</li>
+                            <li>1.2 - AWS CodePipeline Services</li>
+                            <li>1.3 - AWS CodePipeline - Creating Pipelines</li>
+                            <li>1.4 - AWS CodePipeline - Pipeline Execution and Monitoring</li>
+                            <li>1.5 - Demo - AWS CodePipeline Sample Pipeline1</li>
+                            <li>1.6 - Demo - AWS CodePipeline Sample Pipeline2</li>
+                            <li>1.7 - AWS CodePipeline - Day 1 - Exercise</li>
+                            <li>1.8 - AWS CodePipeline - Day 1 - Quiz</li>
                         </ul>
                     </div>
                 </div>
             </div>
-    
+            
             <!-- Day 2 -->
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingDay2">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay2">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Day 2 - Pipelines for Terraform Project
                     </button>
                 </h2>
-                <div id="collapseDay2" class="accordion-collapse collapse" data-bs-parent="#sprintAccordion">
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#pipelineAccordion">
                     <div class="accordion-body">
                         <ul>
-                            <li> 2.1 - Demo - ADO Terraform Pipeline</li>
-                            <li> 2.2 - Demo - ADO Pipeline - Templates</li>
-                            <li> 2.3 - Demo - ADO Pipeline - More References</li>
-                            <li> 2.4 - <strong>Exercise</strong></li>
-                            <li> 2.5 - <strong>Quiz</strong></li>
+                            <li>2.1 - Demo - AWS CodePipeline Terraform Pipeline</li>
+                            <li>2.2 - Demo - AWS CodePipeline Pipeline - Templates</li>
+                            <li>2.3 - Demo - AWS CodePipeline Pipeline - More References</li>
+                            <li>2.4 - AWS CodePipeline - Day 2 - Exercise</li>
+                            <li>2.5 - AWS CodePipeline - Quiz - Day 2</li>
                         </ul>
                     </div>
                 </div>
             </div>
-    
+            
             <!-- Day 3 -->
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingDay3">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay3">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Day 3 - Pipelines for Dockerfile
                     </button>
                 </h2>
-                <div id="collapseDay3" class="accordion-collapse collapse" data-bs-parent="#sprintAccordion">
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#pipelineAccordion">
                     <div class="accordion-body">
                         <ul>
-                            <li> 3.1 - Demo - ADO Docker Pipeline</li>
-                            <li> 3.2 - <strong>Exercise</strong></li>
+                            <li>3.1 - Demo - AWS CodePipeline Docker Pipeline</li>
+                            <li>3.2 - AWS CodePipeline - Day 3 - Exercise</li>
                         </ul>
                     </div>
                 </div>
             </div>
-    
+            
             <!-- Day 4 -->
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingDay4">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay4">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Day 4 - YAML Schema
                     </button>
                 </h2>
-                <div id="collapseDay4" class="accordion-collapse collapse" data-bs-parent="#sprintAccordion">
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#pipelineAccordion">
                     <div class="accordion-body">
                         <ul>
-                            <li> 4.1 - Demo - ADO YAML Schema</li>
-                            <li> 4.2 - <strong>Exercise</strong></li>
+                            <li>4.1 - Demo - AWS CodePipeline YAML Schema</li>
+                            <li>4.2 - AWS CodePipeline - Day 4 - Exercise</li>
                         </ul>
                     </div>
                 </div>
             </div>
-    
+            
             <!-- Day 5 -->
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingDay5">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay5">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         Day 5 - Other Pipelines
                     </button>
                 </h2>
-                <div id="collapseDay5" class="accordion-collapse collapse" data-bs-parent="#sprintAccordion">
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#pipelineAccordion">
                     <div class="accordion-body">
                         <ul>
-                            <li> 5.1 - Azure DevOps Pipelines 3</li>
-                            <li> 5.2 - Demo - Jenkins</li>
-                            <li> 5.3 - <strong>Exercise</strong></li>
+                            <li>5.1 - AWS CodePipeline - Creating Complex Pipelines</li>
+                            <li>5.2 - Demo - AWS CodeBuild</li>
+                            <li>5.3 - AWS CodePipeline - Day 5 - Exercise</li>
                         </ul>
                     </div>
                 </div>
