@@ -114,7 +114,7 @@
     <!-- Page Title -->
     <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/services-page-title-bg.jpg);">
       <div class="container">
-        <h1>Azure DevOps Engineer</h1>
+        <h1>GCP DevOps Engineer</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
@@ -932,7 +932,7 @@
 <!-- Sprint 6 -->
 <div class="card my-3">
   <div class="card-header d-flex justify-content-between align-items-center">
-      <h5 class="mb-0">Sprint 6 - Azure DevOps Pipelines</h5>
+      <h5 class="mb-0">Sprint 6 - Cloud Build CI/CD Pipelines</h5>
       <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#sprint6" aria-expanded="false" aria-controls="sprint6">
          Sprint 6
       </button>
@@ -940,29 +940,43 @@
   <div id="sprint6" class="collapse">
       <div class="card-body">
         <div class="container mt-5">
-          <p><strong>⌛ 💻 Azure DevOps Sprint Planning</strong> </p>
+          <p><strong>⌛ 💻 Cloud Build CI/CD Pipelines Sprint Planning</strong> </p>
 
           <!-- Day 0 - Setup -->
           <div class="accordion" id="terraformSprint">
   
               <!-- Day 1 - Infrastructure as Code -->
               <div class="accordion-item">
-                <h2 class="accordion-header" id="headingDay1">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay1">
-                        Day 1 - Understand & Create Pipelines
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#day0">
+                        Day 0 - Introduction to Google Cloud Platform (GCP) and Cloud Build
                     </button>
                 </h2>
-                <div id="collapseDay1" class="accordion-collapse collapse show" data-bs-parent="#sprintAccordion">
+                <div id="day0" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Introduction to GCP and Cloud Build concepts.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Day 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day1">
+                        Day 1 - Understanding and Creating Cloud Build Pipelines
+                    </button>
+                </h2>
+                <div id="day1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <ul>
-                            <li>1.1 - AzureDevOps Introduction</li>
-                            <li>1.2 - AzureDevOps Services</li>
-                            <li>1.3 - AzureDevOps Pipelines1</li>
-                            <li>1.4 - AzureDevOps Pipelines2</li>
-                            <li>1.5 - Demo - Azure DevOps Sample Pipeline 1</li>
-                            <li>1.6 - Demo - Azure DevOps Sample Pipeline 2</li>
-                            <li>1.7 - <strong>Exercise</strong></li>
-                            <li>1.8 - <strong>Quiz</strong></li>
+                            <li>Cloud Build Introduction</li>
+                            <li>Cloud Build Configuration Files</li>
+                            <li>Cloud Build Triggers and Substitutions</li>
+                            <li>Cloud Build Build Steps and Building Docker Images</li>
+                            <li>Cloud Build Deployment and Continuous Delivery</li>
+                            <li>Demo - Creating a Cloud Build Pipeline</li>
+                            <li>Exercise</li>
+                            <li>Quiz</li>
                         </ul>
                     </div>
                 </div>
@@ -970,19 +984,19 @@
     
             <!-- Day 2 -->
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingDay2">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay2">
-                        Day 2 - Pipelines for Terraform Project
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day2">
+                        Day 2 - Building Pipelines for Terraform Projects
                     </button>
                 </h2>
-                <div id="collapseDay2" class="accordion-collapse collapse" data-bs-parent="#sprintAccordion">
+                <div id="day2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <ul>
-                            <li> 2.1 - Demo - ADO Terraform Pipeline</li>
-                            <li> 2.2 - Demo - ADO Pipeline - Templates</li>
-                            <li> 2.3 - Demo - ADO Pipeline - More References</li>
-                            <li> 2.4 - <strong>Exercise</strong></li>
-                            <li> 2.5 - <strong>Quiz</strong></li>
+                            <li>Demo - Creating a Cloud Build Pipeline for Terraform</li>
+                            <li>Demo - Using Cloud Build Pipeline Templates for Terraform</li>
+                            <li>Demo - Using Variables and Secrets in Cloud Build Pipelines</li>
+                            <li>Exercise</li>
+                            <li>Quiz</li>
                         </ul>
                     </div>
                 </div>
@@ -990,16 +1004,16 @@
     
             <!-- Day 3 -->
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingDay3">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay3">
-                        Day 3 - Pipelines for Dockerfile
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day3">
+                        Day 3 - Building Pipelines for Docker Images
                     </button>
                 </h2>
-                <div id="collapseDay3" class="accordion-collapse collapse" data-bs-parent="#sprintAccordion">
+                <div id="day3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <ul>
-                            <li> 3.1 - Demo - ADO Docker Pipeline</li>
-                            <li> 3.2 - <strong>Exercise</strong></li>
+                            <li>Demo - Creating a Cloud Build Pipeline for Building and Pushing Docker Images</li>
+                            <li>Exercise</li>
                         </ul>
                     </div>
                 </div>
@@ -1007,16 +1021,16 @@
     
             <!-- Day 4 -->
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingDay4">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay4">
-                        Day 4 - YAML Schema
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day4">
+                        Day 4 - Working with YAML Configuration Files
                     </button>
                 </h2>
-                <div id="collapseDay4" class="accordion-collapse collapse" data-bs-parent="#sprintAccordion">
+                <div id="day4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <ul>
-                            <li> 4.1 - Demo - ADO YAML Schema</li>
-                            <li> 4.2 - <strong>Exercise</strong></li>
+                            <li>Demo - Creating a Cloud Build Pipeline with YAML Configuration</li>
+                            <li>Exercise</li>
                         </ul>
                     </div>
                 </div>
@@ -1024,22 +1038,24 @@
     
             <!-- Day 5 -->
             <div class="accordion-item">
-                <h2 class="accordion-header" id="headingDay5">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDay5">
-                        Day 5 - Other Pipelines
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#day5">
+                        Day 5 - Other Pipeline Tools
                     </button>
                 </h2>
-                <div id="collapseDay5" class="accordion-collapse collapse" data-bs-parent="#sprintAccordion">
+                <div id="day5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         <ul>
-                            <li> 5.1 - Azure DevOps Pipelines 3</li>
-                            <li> 5.2 - Demo - Jenkins</li>
-                            <li> 5.3 - <strong>Exercise</strong></li>
+                            <li>Comparison of GCP Cloud Build with Other Pipeline Tools</li>
+                            <li>Demo - Creating a Pipeline with Jenkins</li>
+                            <li>Exercise</li>
                         </ul>
                     </div>
                 </div>
             </div>
+    
         </div>
+       
     </div>
 </div>
 </div>
